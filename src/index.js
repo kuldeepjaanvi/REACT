@@ -7,9 +7,14 @@ import Login from './Login'
 import Clock from './Clocks';
 import PropsState from './prosAndStates'
 import Welcome from './PropsSample'
+import PropsSample from './PropsSample'
+import ParentClass from './ParentClass'
+
+//ReactDOM.render(<PropsSample/>, document.getElementById('root'));
+ReactDOM.render(<ParentClass/>, document.getElementById('root'));
 
 //ReactDOM.render(<PropsState/>, document.getElementById('root'));
-ReactDOM.render(<h1>Hello, world!</h1>, document.getElementById('root'));
+//ReactDOM.render(<h1>Hello, world!</h1>, document.getElementById('root'));
 
 //setInterval(tick, 1000);
 
